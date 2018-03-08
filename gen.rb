@@ -47,7 +47,7 @@ def gen_text(name, type, text=nil, prompt=false)
   FileUtils::mkdir_p("#{type}/#{name}")
   FileUtils::mkdir_p("#{type}/#{name}/data")
   FileUtils::mkdir_p("#{type}/#{name}/notes")
-  FileUtils::mkdir_p("#{type}/#{name}/code")
+  FileUtils::mkdir_p("#{type}/#{name}/source")
   if text == nil
     File.write("#{type}/#{name}/description.txt", "a")
   else
