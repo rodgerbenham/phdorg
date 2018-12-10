@@ -1,3 +1,5 @@
+Note: this is unsupported as RMIT has moved away from Google Apps to Outlook.
+
 # PhDORG
 
 PhDORG is a command-line tool that generates folders for experiments, literature reviews, thesis notes, talks/presentations and meetings, and tries to keep them all in one spot. For talks and meetings, it polls the Google Calendar API to check what's on today, and whether you'd like to create a group of folders for that item.
